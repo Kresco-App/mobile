@@ -35,6 +35,7 @@
       }
     },
     "plugins": [
+      "./plugins/with-vdocipher-maven",
       "expo-secure-store",
       "@sentry/react-native"
     ]
