@@ -16,11 +16,13 @@
     "firebase": "^12.15.0",
     "react": "19.2.3",
     "react-native": "0.86.0",
+    "react-native-nitro-modules": "^0.36.1",
     "react-native-unistyles": "^3.2.5",
     "vdocipher-rn-bridge": "^2.0.0"
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
+    "babel-preset-expo": "^57.0.1",
     "typescript": "~6.0.3"
   },
   "scripts": {
