@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Kresco",
+    "slug": "kresco-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "app.kresco.mobile",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "app.kresco.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "@sentry/react-native"
+    ]
+  }
+}

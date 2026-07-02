@@ -1,0 +1,34 @@
+{
+  "name": "kresco-mobile",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@sentry/react-native": "~7.11.0",
+    "@tanstack/react-query": "^5.101.2",
+    "expo": "~57.0.1",
+    "expo-application": "~57.0.0",
+    "expo-dev-client": "~57.0.4",
+    "expo-device": "~57.0.0",
+    "expo-notifications": "~57.0.2",
+    "expo-secure-store": "~57.0.0",
+    "expo-status-bar": "~57.0.0",
+    "expo-updates": "~57.0.5",
+    "firebase": "^12.15.0",
+    "react": "19.2.3",
+    "react-native": "0.86.0",
+    "react-native-unistyles": "^3.2.5",
+    "vdocipher-rn-bridge": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit"
+  },
+  "private": true
+}
